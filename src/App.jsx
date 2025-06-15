@@ -32,7 +32,7 @@ function App() {
   const projectData = {
     proLink: "https://github.com/BishnuMukherjee123/Spotify-clone",
     proName: "Spotify Clone",
-    imageLink: "src/logo/spotify-clone.png",
+    imageLink: "logo/spotify-clone.png",
     describe:
       "Created a front-end Spotify clone using HTML, CSS, and JavaScript, replicating the layout and styling of the Spotify web player.",
     describe2:"Developed a static Spotify clone with custom HTML/CSS UI and basic JavaScript functionality such as play/pause and song selection. \nDesigned a static clone of the Spotify web interface using HTML and CSS, replicating the visual structure and layout of the desktop player.",
@@ -46,7 +46,7 @@ function App() {
   const projectData2 = {
     proLink: "https://github.com/BishnuMukherjee123/Currency-converter",
     proName: "Currency Converter",
-    imageLink: "src/logo/currency.png",
+    imageLink: "logo/currency.png",
     describe:
       " Built a basic currency converter using HTML, CSS, and JavaScript to perform real-time currency conversions between selected countries",
     describe2:"Developed a static currency converter that fetches real-time exchange rates using a public API and performs calculations based on user input. \nImplemented a currency conversion tool with JavaScript that handles user input, calculates exchange rates, and displays results dynamically.",
@@ -60,7 +60,7 @@ function App() {
   const projectData3 = {
     proLink: "https://github.com/BishnuMukherjee123/website-clone-from-figma",
     proName: "Currency Converter",
-    imageLink: "src/logo/figma.png",
+    imageLink: "logo/figma.png",
     describe: "Fully responsive layout",
     describe2:"Clean and modern UI. \nMobile-friendly design \nTailwind CSS utility classes \n Using HTML, CSS-Tailwind",
     tooles: [
