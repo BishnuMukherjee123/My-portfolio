@@ -5,6 +5,6 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/My-portfolio/'
+  base: process.env.VITE_BASE_PATH || "/My-portfolio",
  
 });
