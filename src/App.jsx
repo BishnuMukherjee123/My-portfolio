@@ -46,7 +46,7 @@ function App() {
   const projectData2 = {
     proLink: "https://github.com/BishnuMukherjee123/Currency-converter",
     proName: "Currency Converter",
-    imageLink: "logo/currency.png",
+    imageLink: "./logo/currency.png",
     describe:
       " Built a basic currency converter using HTML, CSS, and JavaScript to perform real-time currency conversions between selected countries",
     describe2:"Developed a static currency converter that fetches real-time exchange rates using a public API and performs calculations based on user input. \nImplemented a currency conversion tool with JavaScript that handles user input, calculates exchange rates, and displays results dynamically.",
@@ -60,7 +60,7 @@ function App() {
   const projectData3 = {
     proLink: "https://github.com/BishnuMukherjee123/website-clone-from-figma",
     proName: "Currency Converter",
-    imageLink: "logo/figma.png",
+    imageLink: "src/logo/figma.png",
     describe: "Fully responsive layout",
     describe2:"Clean and modern UI. \nMobile-friendly design \nTailwind CSS utility classes \n Using HTML, CSS-Tailwind",
     tooles: [
