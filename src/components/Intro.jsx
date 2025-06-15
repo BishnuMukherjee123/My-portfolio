@@ -12,7 +12,7 @@ function Intro() {
           Hi, I'm Bishnu 👋
         </h2>
         <p className="text-[#4B5563] dark:text-[#D1D5DB] mb-2">
-          A full stack developer based in India who loves to design scalable web
+          A Web developer based in India who loves to design scalable web
           apps.
         </p>
         <div className="flex items-center space-x-2">
