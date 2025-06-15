@@ -10,7 +10,7 @@ function Testimonials({
   return (
     <div
      onClick={() => window.open(`${link}`, "_blank")}
-      className="max-w-[80%] lg:min-w-[353.33px] lg:max-w-[353.33px] rounded-xl py-10 px-8 justify-center items-center lg:h-[450px] bg-[#FFFFFF] dark:bg-[#1F2937] shadow-[0_4px_3px_0_rgba(0,0,0,0.07),0_2px_2px_0_rgba(0,0,0,0.06)] dark:drop-shadow-2xl 
+      className="w-full lg:min-w-[353.33px] lg:max-w-[353.33px] rounded-xl py-10 px-8 justify-center items-center lg:h-[450px] bg-[#FFFFFF] dark:bg-[#1F2937] shadow-[0_4px_3px_0_rgba(0,0,0,0.07),0_2px_2px_0_rgba(0,0,0,0.06)] dark:drop-shadow-2xl 
   transform transition duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer"
     >
       <div className="mb-6">
