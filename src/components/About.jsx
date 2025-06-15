@@ -1,4 +1,5 @@
 import Button from "./Button";
+import my from '../logo/desk.jpg'
 
 function About() {
 
@@ -12,7 +13,7 @@ function About() {
         <div className="w-full py-2 flex justify-center lg:w-[50%] ">
           <div className="relative flex [&>*]:transition-all [&>*]:duration-300 [&>*]:ease-in-out [&>*]:animate-fade-in">
             <img
-              src="src/logo/desk.jpg"
+              src={my}
               alt="Sagar outdoor"
               className="rounded-xl md:w-[400px] md:max-h-[533.333px] border-5 border-[#F9FAFB] dark:border-[#111827] relative z-1"
             />

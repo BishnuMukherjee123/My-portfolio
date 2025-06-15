@@ -2,6 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
+import me from '../logo/me2.jpg'
 
 function Intro() {
   return (
@@ -53,7 +54,9 @@ function Intro() {
       </div>
 
       <div className="grid w-60 lg:w-60 min-h-60 grid-cols-[1fr_2fr_2fr_2fr_1fr] grid-rows-[1fr_2fr_2fr_2fr_1fr] place-content-center transition-all duration-300 ease-in-out animate-fade-in">
-        <div className="border-[#FFFFFF] dark:border-[#030712] bg-[url('src/logo/me2.jpg')] bg-cover bg-center rounded-lg border-5 row-start-1 row-end-5 col-start-1 col-end-5 z-[1] transition-all duration-300 ease-in-out animate-fade-in"></div>
+        <div className={`border-[#FFFFFF] dark:border-[#030712] bg-cover bg-center rounded-lg border-5 row-start-1 row-end-5 col-start-1 col-end-5 z-[1] transition-all duration-300 ease-in-out animate-fade-in`}
+        style={{ backgroundImage: `url(${me})` }}
+        ></div>
         <div className="bg-[#E5E7EB] dark:bg-[#374151]  rounded-lg row-start-2 row-end-6 col-start-2 col-end-6 transition-all duration-300 ease-in-out animate-fade-in"></div>
       </div>
     </section>

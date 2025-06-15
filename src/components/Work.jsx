@@ -1,11 +1,12 @@
 import React from "react";
+import work from '../logo/logo-upwork.png'
 
 function Work() {
   return (
     <div className="max-w-[70%] mx-auto shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] dark:shadow-[0px_25px_25px_0px_rgba(0,0,0,0.15)] transition-all duration-300 ease-in-out animate-fade-in [&>*]:transition-all [&>*]:duration-300 [&>*]:ease-in-out [&>*]:animate-fade-in transform hover:scale-105 hover:shadow-2xl">
       <div className="bg-[#FFFFFF] dark:bg-[#1F2937] p-6 px-7 rounded-lg lg:flex lg:justify-between [&>*]:transition-all [&>*]:duration-300 [&>*]:ease-in-out [&>*]:animate-fade-in">
         <img
-          src="src/logo/logo-upwork.png"
+          src={work}
           alt="Project"
           className="max-w-[102px] max-h-[28px] rounded mb-4"
         />

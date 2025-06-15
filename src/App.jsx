@@ -10,6 +10,13 @@ import Projectsmain from "./components/Projectsmain";
 import Projects from "./components/Projects";
 import Testimonialsmain from "./components/Testimonialsmain";
 import Footer from "./components/Footer";
+import spotify from './logo/spotify-clone.png'
+import currency from './logo/currency.png'
+import figma from './logo/figma.png'
+import deba from './logo/deba.jpg'
+import sneha from './logo/sne.jpg'
+import arnab from './logo/arnab.jpg'
+
 
 
 function App() {
@@ -32,7 +39,7 @@ function App() {
   const projectData = {
     proLink: "https://github.com/BishnuMukherjee123/Spotify-clone",
     proName: "Spotify Clone",
-    imageLink: "./spotify-clone.png",
+    imageLink: `${spotify}`,
     describe:
       "Created a front-end Spotify clone using HTML, CSS, and JavaScript, replicating the layout and styling of the Spotify web player.",
     describe2:"Developed a static Spotify clone with custom HTML/CSS UI and basic JavaScript functionality such as play/pause and song selection. \nDesigned a static clone of the Spotify web interface using HTML and CSS, replicating the visual structure and layout of the desktop player.",
@@ -46,7 +53,7 @@ function App() {
   const projectData2 = {
     proLink: "https://github.com/BishnuMukherjee123/Currency-converter",
     proName: "Currency Converter",
-    imageLink: "./logo/currency.png",
+    imageLink: `${currency}`,
     describe:
       " Built a basic currency converter using HTML, CSS, and JavaScript to perform real-time currency conversions between selected countries",
     describe2:"Developed a static currency converter that fetches real-time exchange rates using a public API and performs calculations based on user input. \nImplemented a currency conversion tool with JavaScript that handles user input, calculates exchange rates, and displays results dynamically.",
@@ -60,7 +67,7 @@ function App() {
   const projectData3 = {
     proLink: "https://github.com/BishnuMukherjee123/website-clone-from-figma",
     proName: "Currency Converter",
-    imageLink: "src/logo/figma.png",
+    imageLink: `${figma}`,
     describe: "Fully responsive layout",
     describe2:"Clean and modern UI. \nMobile-friendly design \nTailwind CSS utility classes \n Using HTML, CSS-Tailwind",
     tooles: [
@@ -145,21 +152,21 @@ function App() {
             pass={
               <>
                 <Testimonials
-                  pic="src/logo/deba.jpg"
+                  pic={deba}
                   message={debaMsg}
                   name={"Debarun Das"}
                   company={"Ex-Intern, Webel"}
                   link={debaLink}
                 />
                 <Testimonials
-                  pic="src/logo/sne.jpg"
+                  pic={sneha}
                   message={sneMsg}
                   name={"Sneharta Roy"}
                   company={"Ex-Intern, Celebal"}
                   link={snehLink}
                 />
                 <Testimonials
-                  pic="src/logo/arnab.jpg"
+                  pic={arnab}
                   message={arnabMsg}
                   name={"Arnab Chakraborty"}
                   company={"Ex-Intern, Chittaranjan Locomotive Works"}

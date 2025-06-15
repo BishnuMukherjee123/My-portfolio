@@ -3,6 +3,7 @@ import { MdSunny } from "react-icons/md";
 import { TbMoonFilled } from "react-icons/tb";
 import { CiMenuBurger } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
+import logo from '../logo/bl.png'
 
 function Navbar({ val, fun1, fun2 }) {
   // console.log("hey this is side bar:", sideBar);
@@ -48,7 +49,7 @@ function Navbar({ val, fun1, fun2 }) {
           <span  onClick={() => window.location.reload()} className="text-2xl font-bold text-[#111827] dark:text-[#F9FAFB] cursor-pointer">
             <img
               className="w-10 h-10 object-contain"
-              src="src/logo/bl.png"
+              src={logo}
               alt="Logo"
             />
           </span>
