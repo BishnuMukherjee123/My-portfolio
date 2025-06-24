@@ -51,7 +51,7 @@ function App() {
   };
 
   const projectData2 = {
-    proLink: "https://github.com/BishnuMukherjee123/Currency-converter",
+    proLink: "https://currency-converter-phi-taupe.vercel.app/",
     proName: "Currency Converter",
     imageLink: `${currency}`,
     describe:
