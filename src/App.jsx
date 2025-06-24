@@ -37,7 +37,7 @@ function App() {
   // ];
 
   const projectData = {
-    proLink: "https://github.com/BishnuMukherjee123/Spotify-clone",
+    proLink: "https://spotify-one-theta-40.vercel.app/",
     proName: "Spotify Clone",
     imageLink: `${spotify}`,
     describe:
@@ -65,7 +65,7 @@ function App() {
   };
 
   const projectData3 = {
-    proLink: "https://github.com/BishnuMukherjee123/website-clone-from-figma",
+    proLink: "https://website-clone-from-figma.vercel.app/",
     proName: "Currency Converter",
     imageLink: `${figma}`,
     describe: "Fully responsive layout",
